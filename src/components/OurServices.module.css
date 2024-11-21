@@ -1,0 +1,147 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.popup-content {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.popup-content h2 {
+    margin-bottom: 10px;
+}
+
+.close-popup {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.close-popup:hover {
+    background-color: #0056B3;
+}
+
+.reverse-layout {
+    flex-direction: row-reverse;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between; /* Spaces the text and image apart */
+    align-items: center;
+    gap: 20px; /* Adds a gap between the text and image */
+}
+
+.text-container {
+    flex: 1;
+    text-align: left; /* Aligns the text to the left */
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Aligns the image to the right */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start */
+}
+
+.text-container {
+    text-align: left; /* Left-align text */
+    margin-right: 20px; /* Optional: space between text and image */
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end; /* Keep the image on the right */
+}
+/* OurServices.module.css */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.popup-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.popup-content ul {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.popup-content ul li {
+    font-size: 1rem;
+    color: #555;
+}
+
+.close-popup {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.close-popup:hover {
+    background-color: black;
+}
+/* OurServices.module.css */
+.image-border {
+    border: 5px solid #333; /* You can change the color and width */
+    border-radius: 10px; /* Rounded corners for a sleek look */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-border:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+}

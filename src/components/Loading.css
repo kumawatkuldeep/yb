@@ -1,0 +1,17 @@
+
+.loading-screen {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    background-color: #f0f0f0; /* Optional: A background color for the loading screen */
+  }
+  
+  .loading-text {
+    padding-top: 40x; /* Adds padding above the text */
+    margin-top: 20px; /* Space between the spinner and text */
+    font-size: 18px;  /* Adjust the text size */
+    color: #191f7b;      /* Text color */
+  }  

@@ -1,0 +1,46 @@
+/* Button.css */
+
+.df-btn-text {
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    background-color: #060706;
+    color: #ded6d6;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .df-svg-icon {
+    width: 10px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Responsive styling */
+  @media screen and (max-width: 768px) {
+    .df-btn-text {
+      bottom: 10px;
+      right: 10px;
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .df-btn-text {
+      bottom: 5px;
+      right: 5px;
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  
+    .df-svg-icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  
